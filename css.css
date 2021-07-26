@@ -71,3 +71,34 @@ li {
    list-style-type: none; 
 
 }
+
+@media (max-width: 630px) {
+    #my-search-container {
+        width: 95vw;
+    }
+
+
+}
+
+@media (max-height: 522px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    section {
+        margin-bottom: 20px;
+
+    }
+}
+
+@media (max-height: 570px) and (max-width: 630px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    section {
+        margin-bottom: 13px;
+
+    }
+   
+}
